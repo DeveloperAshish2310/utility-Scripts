@@ -83,13 +83,13 @@ sudo chmod 777 <path>
 
 ---
 
-## HART SSH
+## SSH
 ```bash
-ssh hart@91.203.134.203 -p 5005
+ssh username@ipaddress -p <port>
 ```
-**Note:** This command connects to a remote server via SSH on port 5005.
+**Note:** This command connects to a remote server via SSH on custom port.
 
-**Tags:** `#SSH #HART #Connection`
+**Tags:** `#SSH #Connection`
 
 ---
 
@@ -241,9 +241,9 @@ source ~/.bashrc
 
 ## Example Custom Alias
 ```bash
-alias hartserver='ssh hart@91.203.134.203 -p 5005'
+alias myserver='ssh root@192.168.1.25 -p 5005'
 ```
-**Note:** This alias creates a shortcut for connecting to the HART server.
+**Note:** This alias creates a shortcut for connecting to the SSH server.
 
 **Tags:** `#Aliases #SSH #CustomCommand`
 
